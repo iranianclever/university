@@ -1,0 +1,33 @@
+Person {
+    first_name
+    last_name
+    age
+    code
+    def return features
+}
+
+teacher:Person {
+    school_name
+    star
+    def return_features
+}
+
+student:Person {
+    scores[]
+    def return_average
+    def return_features
+}
+
+university {
+    name_tc
+    students[]
+    teachers[]
+    def add_student
+    def add_teacher
+    def remove_student
+    def remove teacher
+    def return students features
+    def return teachers features
+    def return rank students
+    def return stars teachers
+}
